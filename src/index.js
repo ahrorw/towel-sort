@@ -1,7 +1,3 @@
-
-// You should implement your task here.
-
-
 module.exports = function towelSort (matrix) {
 	if (!Array.isArray(matrix)) return [];
 
@@ -12,3 +8,6 @@ module.exports = function towelSort (matrix) {
 
     arr = arr.concat(item);
   })
+
+  return arr;
+}
